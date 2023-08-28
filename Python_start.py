@@ -7,3 +7,6 @@ print("You are " + age + " years old!")
 #input city
 city = input("Where do you live? ")
 print("You live in " + city + "!")
+#input hobby!!!
+hobby = input("What is your hobby? ")
+print("Your hobby is " + hobby + "!")
