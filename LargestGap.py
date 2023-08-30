@@ -118,6 +118,9 @@ while not motor_serial.shutdown_now :
     elif dist_1 > dist_2:
         print("Turning right")
         turn_robot(RIGHT, 1)
+    else:
+        print("Driving forwards")
+        drive_robot(FORWARDS, 1)
     
 
 
