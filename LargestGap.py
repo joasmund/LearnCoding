@@ -127,16 +127,16 @@ while not motor_serial.shutdown_now :
     # Send commands to motor
     # Max speed is 400.
     # E.g.a command of 500 will result in the same speed as if the command was 400
-    motor_serial.send_command(speed_motor_1, speed_motor_2)
+   # motor_serial.send_command(speed_motor_1, speed_motor_2)
 
 
 
     # Here we pause the execution of the program for the apropriate amout of time
     # so that our loop executes at the frequency specified by the variable execution_frequency
-    iteration_end_time = time.time() # current time
-    iteration_duration = iteration_end_time - iteration_start_time # time spent executing code
-    if (iteration_duration < execution_period):
-        time.sleep(execution_period - iteration_duration)
+   # iteration_end_time = time.time() # current time
+    #iteration_duration = iteration_end_time - iteration_start_time # time spent executing code
+    #if (iteration_duration < execution_period):
+    #    time.sleep(execution_period - iteration_duration)
 
 
 
